@@ -2260,6 +2260,7 @@
 #include "hippiestation\code\controllers\configuration.dm"
 #include "hippiestation\code\controllers\subsystem\job.dm"
 #include "hippiestation\code\controllers\subsystem\reagent_states.dm"
+#include "HippieStation\code\controllers\subsystem\research.dm"
 #include "hippiestation\code\controllers\subsystem\throwing.dm"
 #include "hippiestation\code\controllers\subsystem\ticker.dm"
 #include "hippiestation\code\datums\action.dm"

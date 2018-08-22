@@ -457,7 +457,7 @@
 	if ((!mob_occupant.ckey) || (!mob_occupant.client))
 		scantemp = "<font class='bad'>Mental interface failure.</font>"
 		var/obj/machinery/clonepod/pod = GetAvailablePod() // hippie start -- (PREVENTS SOUND WHILE THE POD IS IN USE)
-		if (!pod.occupant)
+		if (pod && !pod.occupant)
 			playsound(src, 'sound/machines/terminal_prompt_deny.ogg', 50, 0) // hippie end
 		return
 	if (find_record("ckey", mob_occupant.ckey, records))
